@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  text-align: center;
+}
+tr,
+thead {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.709);
+}
+
+table {
+  width: 90vw;
+  margin: 20px auto;
+}
+
+th {
+  padding: 5px 7px;
+}
+
+td {
+  padding: 5px;
+  width: 12.5%;
+}
+.wrap {
+  width: 11vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+thead tr {
+  color: white;
+  background-color: rgb(171, 0, 106);
+}
+tr:nth-child(even) {
+  background-color: rgba(0, 83, 139, 0.118);
+}
+tbody tr:hover {
+  background-color: rgba(42, 165, 46, 0.337);
+  cursor: pointer;
+}
